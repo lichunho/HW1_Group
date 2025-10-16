@@ -41,6 +41,11 @@
       <artifactId>org.eclipse.jgit</artifactId>
       <version>7.4.0.202509020913-r</version>
     </dependency>
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>7.0.0</version>
+    </dependency>
   </dependencies>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
